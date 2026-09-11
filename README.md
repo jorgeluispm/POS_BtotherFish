@@ -8,6 +8,7 @@ Sistema integral Punto de Venta (POS) diseñado para la gestión de ventas, cont
 
 El proyecto utiliza una arquitectura **monolítica unificada**: el servidor de NestJS no solo expone la API REST sino que también sirve los activos estáticos del cliente web a través de `@nestjs/serve-static`, permitiendo el despliegue en un único puerto/dominio.
 
+```text
 BF/
 ├── backend/
 │   ├── public/                 # Frontend Estático
@@ -31,9 +32,7 @@ BF/
 │   │   ├── app.module.ts       # Módulo principal de la aplicación
 │   │   └── main.ts             # Punto de entrada de la aplicación
 │   └── tsconfig.json           # Configuración del compilador TypeScript
-
-
----
+```
 
 ## 🛠️ Tecnologías Utilizadas
 
