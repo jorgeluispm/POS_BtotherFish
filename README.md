@@ -54,7 +54,7 @@ Para realizar pruebas de la aplicación en entorno local, puedes utilizar los si
 | `root` | Administrador / Acceso Total | `AdminPassword123!` |
 | `cajero_real` | Cajero / Operación POS | `AdminPassword123!` |
 
-* **PIN de Operaciones Sensibles (Agregar Artículos):** `9216`
+* **PIN de Operaciones Sensibles (+Nuevo Artículo):** `9216`
 
 ---
 
@@ -97,6 +97,7 @@ DB_NAME=postgres
 
 # Seguridad JWT
 JWT_SECRET=tu_secreto_jwt_super_seguro
+
 📦 Instalación y Ejecución Local
 1. Clonar el repositorio e instalar dependencias
 Bash
